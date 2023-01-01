@@ -54,6 +54,7 @@
         android:text="
 本软件部分素材来自于网络，如有侵权请联系我删除。\n
 作者邮箱：2364506907@qq.com\n
+开源地址：https://github.com/mofeng007/Android-Basics/tree/master/getphone_contacts\n
 使用方式：\n
 1.点按联系人头像、姓名或电话，弹出Toast展示联系人详情\n
 2.长按联系人头像，可对联系人进行删除操作\n
