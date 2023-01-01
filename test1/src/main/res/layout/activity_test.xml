@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TestActivity" android:background="@drawable/bg3">
+    <TextView
+            android:layout_width="271dp"
+            android:layout_height="121dp" android:id="@+id/t_result"
+            android:textSize="32sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textAlignment="center" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:textColor="@android:color/holo_red_dark"
+            app:layout_constraintHorizontal_bias="0.578"/>
+    <TextView
+            android:layout_width="241dp"
+            android:layout_height="51dp" android:id="@+id/t_num2"
+            android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.276"
+            android:textAlignment="center" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.541"/>
+    <TextView
+            android:layout_width="241dp"
+            android:layout_height="51dp" android:id="@+id/t_num1"
+            android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.111"
+            android:textAlignment="center" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="92dp"/>
+    <Button
+            android:text="继续答题"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/bt_return"
+            android:onClick="btReturn" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.544" app:layout_constraintVertical_bias="0.686"
+            android:textSize="20sp" android:textColor="@android:color/background_dark"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

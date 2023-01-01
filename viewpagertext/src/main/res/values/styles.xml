@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--发现页的歌单广场-->
+    <style name="Find_Button_right_Style" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">@dimen/dp_65</item>
+        <item name="android:layout_height">@dimen/dp_25</item>
+        <item name="android:background">@drawable/btn_select</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <!--发现页的推荐歌单-->
+    <style name="Find_TextView_right_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <!--titleBar样式-->
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionBarItemBackground">@drawable/toolbarItemBackground</item>
+        <item name="selectableItemBackground">@drawable/toolbarItemBackground</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="MyScrollPage" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--选中状态icon的颜色和字体颜色-->
+        <item name="colorPrimary">@color/colorTheme</item>
+        <item name="colorPrimaryDark">@color/colorTheme</item>
+        <item name="colorAccent">@color/colorTheme</item>
+    </style>
+
+    <!--本地音乐BottomSheetDialog子项文字宽高-->
+    <style name="LocalMusicButtonSheetDialogTextWidthHeight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--MarqueeTextView走马灯效果；单行显示-->
+    <style name="TextView">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

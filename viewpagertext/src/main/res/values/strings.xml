@@ -1,0 +1,52 @@
+<resources>
+
+    <!--应用名称-->
+    <string name="app_name">安浊音乐</string>
+
+
+    <!--启动页-->
+    <string name="StartWelcomeText">Musicꦿ℘゜এ</string>
+    <string name="StartWelcome">玩音乐，玩出精彩</string>
+
+
+    <!--标题栏-->
+    <string name="My">我的</string>
+    <string name="Find">发现</string>
+    <string name="Friend">视频</string>
+
+    <!--主页发现页-->
+    <string name="Everyday">每日推荐</string>
+    <string name="Song_Sheet">歌单</string>
+    <string name="Ranking_List">排行榜</string>
+    <string name="Everyday_Song_Sheet">推荐歌单</string>
+    <string name="Song_Square">歌单广场</string>
+
+    <!--主页我的-->
+    <string name="LocalMusic">本地音乐</string>
+    <string name="Down_Manager">下载管理</string>
+
+    <!--主页侧边栏-->
+    <string name="Login">点击登录</string>
+    <string name="Update_Pwd">修改密码</string>
+    <string name="About">关于软件</string>
+    <string name="AppHome">项目主页</string>
+    <string name="Close">退出</string>
+
+    <!--主页底部提示语-->
+    <string name="Bottom_Tips">怦然心动的感觉ꦿ℘゜এ</string>
+
+    <string name="ap_name">YunMusicUI</string>
+    <string name="title">云音乐新歌榜</string>
+
+    <!--本地音乐BottomSheetDialog子项文字-->
+    <string name="LocalMusicDialogSong">歌曲：</string>
+    <string name="LocalMusicDialogSinger">歌手：</string>
+    <string name="LocalMusicDialogAlbum">专辑：</string>
+    <string name="LocalMusicDialogSize">所占空间大小：</string>
+    <string name="LocalMusicDialogM"> M</string>
+    <string name="LocalMusicDialogSongTime">歌曲时长：</string>
+    <string name="LocalMusicDialogShare">分享</string>
+    <string name="LocalMusicDialogDelete">删除</string>
+    <string name="ListMusicDialogPlay">查看播放页</string>
+    <string name="ListMusicDialogLike">喜欢</string>
+</resources>
